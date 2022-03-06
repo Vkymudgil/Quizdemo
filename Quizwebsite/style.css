@@ -1,0 +1,55 @@
+* {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 0;
+  }
+  
+  .wrapper{
+    height: 100vh;
+    background-color:rgb(194, 233, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .quizbox{
+    background-color: #fff;
+    border-radius: 10px;
+    flex:2;
+  }
+  .clearfix{
+      flex:1;
+  }
+  .heading {
+    padding: 40px;
+  }
+  
+  h2 {
+      text-align: center;  
+      padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin: 15px 45px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #701c94;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  button:hover {
+    background-color: #5a040f;
+  }
+  
